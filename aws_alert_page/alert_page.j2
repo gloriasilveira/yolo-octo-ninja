@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Amazon Service Outage Alert Page</title>
+</head>
+
+<body>
+
+<div>
+
+<h1>Amazon Service Outage Alert Page</h1>
+<hr>
+
+{% for alert in alerts_list %}
+<h2> {{ alert_title }} </h2>
+<h3> {{ alert_date }} </h3>
+<p> {{ alert_message }} </p>
+<br />
+<br />
+<br />
+{% endfor %}
+
+</div>
+
+
+
+</body>
+
+</html> 

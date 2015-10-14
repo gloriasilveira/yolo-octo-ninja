@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
-		<title>AWS Service Health Dashboard - Oct 6, 2015 PDT</title>
+		<title>AWS Service Health Dashboard - Oct 10, 2015 PDT</title>
 		<link rel="stylesheet" type="text/css" href="/style/style.css"/>
 		<link rel="stylesheet" type="text/css" href="/yui/tabview/assets/tabview.css"/>
 		<link rel="icon" type="image/ico" href="/favicon.ico" />
@@ -22,7 +22,7 @@
     
     <script language="javascript">
             realm = 'Classic';
-            today = 1444114806;
+            today = 1444460418;
 	    serverTimeZoneOffset = -420;
             cols = 7; // <!-- 7 because we display 7 days at a time. -->
                 
@@ -73,7 +73,7 @@
 
         
 
-          <h3 style="font-size: 13.5pt;">Current Status<span style="font-size: 12px"> - Oct 6, 2015 PDT</span></h3>
+          <h3 style="font-size: 13.5pt;">Current Status<span style="font-size: 12px"> - Oct 10, 2015 PDT</span></h3>
           <p>
 	    Amazon Web Services publishes our most up-to-the-minute information on service availability
 	in the table below. Check back here any time to get current status information, or subscribe to an RSS feed to
@@ -3987,19 +3987,19 @@
           <table id="NAstatusHistoryContent" class="statusHistory statusHistoryContent">
             <tr>
               
+                <th>Oct 9</th>
+              
+                <th>Oct 8</th>
+              
+                <th>Oct 7</th>
+              
+                <th>Oct 6</th>
+              
                 <th>Oct 5</th>
               
                 <th>Oct 4</th>
               
                 <th>Oct 3</th>
-              
-                <th>Oct 2</th>
-              
-                <th>Oct 1</th>
-              
-                <th>Sep 30</th>
-              
-                <th>Sep 29</th>
               
             </tr>
             
@@ -5380,20 +5380,10 @@
                   <td>
                     <!-- Status Content -->
                     
-                      <span id="imagecontainer_archive_ec2-us-east-1_NA_20151001">
-                        <img src="/images/status1.gif" />
-                      </span>
-                      <span style="position: relative">
-                        <div id="archive_ec2-us-east-1_NA_20151001" style="display: none;" class="greybg bordered-dark pad8 archivePopup">
-                          <div class="whitebg pad4">
-                            <div class="pad4" style="float:left"><img src="/images/status1.gif" /></div>
-                            <div class="pad4 bold yellowfg" style="float:left">[RESOLVED] Instance Connectivity</div>
-                            <div class="pad4" style="clear:both"><div><span class="yellowfg"> 5:14 AM PDT</span>&nbsp;We are investigating a period of elevated error rates for the EC2 APIs and new instance launches in the US-EAST-1 Region. During this period some instances experienced impaired connectivity and some EBS volumes experienced degraded IO performance in a single Availability Zone.</div><div><span class="yellowfg"> 6:05 AM PDT</span>&nbsp;Between 4:34 AM and 4:52 AM PDT we experienced elevated error rates for the EC2 APIs and new instance launches in the US-EAST-1 Region. During this period some instances experienced impaired connectivity and some EBS volumes experienced degraded IO performance in a single Availability Zone. The issue has been resolved and the service is operating normally.</div></div>
-                          </div>
-                        </div>
-                      </span>
-                      <script language="JavaScript">setupHistoryEventHandler('archive_ec2-us-east-1_NA_20151001');</script>
-                      
+                        
+                              <img src="/images/status0.gif" />
+                            
+                        
                         <!-- End Status Content -->
                   </td>
                 
@@ -5612,20 +5602,10 @@
                   <td>
                     <!-- Status Content -->
                     
-                      <span id="imagecontainer_archive_elb-us-east-1_NA_20151001">
-                        <img src="/images/status1.gif" />
-                      </span>
-                      <span style="position: relative">
-                        <div id="archive_elb-us-east-1_NA_20151001" style="display: none;" class="greybg bordered-dark pad8 archivePopup">
-                          <div class="whitebg pad4">
-                            <div class="pad4" style="float:left"><img src="/images/status1.gif" /></div>
-                            <div class="pad4 bold yellowfg" style="float:left">[RESOLVED] Network Connectivity</div>
-                            <div class="pad4" style="clear:both"><div><span class="yellowfg"> 6:09 AM PDT</span>&nbsp;Between 4:34 AM and 4:52 AM PDT we experienced network connectivity issues for some load balancers in a single Availability Zone. Health checks to back-end instances in the affected Availability Zone also saw impact. Request traffic was shifted away from the affected Availability Zone during this time. The issue has been resolved and the service is operating normally.</div></div>
-                          </div>
-                        </div>
-                      </span>
-                      <script language="JavaScript">setupHistoryEventHandler('archive_elb-us-east-1_NA_20151001');</script>
-                      
+                        
+                              <img src="/images/status0.gif" />
+                            
+                        
                         <!-- End Status Content -->
                   </td>
                 
@@ -6288,20 +6268,10 @@
                   <td>
                     <!-- Status Content -->
                     
-                      <span id="imagecontainer_archive_elasticache-us-east-1_NA_20151001">
-                        <img src="/images/status1.gif" />
-                      </span>
-                      <span style="position: relative">
-                        <div id="archive_elasticache-us-east-1_NA_20151001" style="display: none;" class="greybg bordered-dark pad8 archivePopup">
-                          <div class="whitebg pad4">
-                            <div class="pad4" style="float:left"><img src="/images/status1.gif" /></div>
-                            <div class="pad4 bold yellowfg" style="float:left">[RESOLVED] Node Connectivity</div>
-                            <div class="pad4" style="clear:both"><div><span class="yellowfg"> 6:41 AM PDT</span>&nbsp;We are investigating a period of connectivity issues affecting some nodes in a single Availability Zone in the US-EAST-1 Region. The problem has been resolved and recovery is proceeding.</div><div><span class="yellowfg"> 7:31 AM PDT</span>&nbsp;Between 4:34 AM and 7:15 AM PDT we experienced connectivity issues affecting some nodes in a single Availability Zone in the US-EAST-1 Region. The majority of these recovered when the networking issue was resolved at 4:52 AM PDT and we can confirm that all nodes have now fully recovered. The issue has been resolved and the service is operating normally.</div></div>
-                          </div>
-                        </div>
-                      </span>
-                      <script language="JavaScript">setupHistoryEventHandler('archive_elasticache-us-east-1_NA_20151001');</script>
-                      
+                        
+                              <img src="/images/status0.gif" />
+                            
+                        
                         <!-- End Status Content -->
                   </td>
                 
@@ -7260,20 +7230,10 @@
                   <td>
                     <!-- Status Content -->
                     
-                      <span id="imagecontainer_archive_rds-us-east-1_NA_20151001">
-                        <img src="/images/status1.gif" />
-                      </span>
-                      <span style="position: relative">
-                        <div id="archive_rds-us-east-1_NA_20151001" style="display: none;" class="greybg bordered-dark pad8 archivePopup">
-                          <div class="whitebg pad4">
-                            <div class="pad4" style="float:left"><img src="/images/status1.gif" /></div>
-                            <div class="pad4 bold yellowfg" style="float:left">[RESOLVED] Instance Connectivity</div>
-                            <div class="pad4" style="clear:both"><div><span class="yellowfg"> 5:47 AM PDT</span>&nbsp;We experienced a period of connectivity issues affecting some instances in a single Availability Zone in the US-EAST-1 Region. The problem has been resolved and recovery is proceeding.</div><div><span class="yellowfg"> 6:48 AM PDT</span>&nbsp;Between 4:34 AM and 4:52 AM PDT we experienced connectivity issues affecting some database instances in a single Availability Zone in the US-EAST-1 Region. The majority of these recovered when the networking connectivity issue was resolved and we continue towards full recovery for the remaining Single-AZ database instances.</div><div><span class="yellowfg"> 7:14 AM PDT</span>&nbsp;We can confirm that all database instances have fully recovered. The issue has been resolved and the service is operating normally.</div></div>
-                          </div>
-                        </div>
-                      </span>
-                      <script language="JavaScript">setupHistoryEventHandler('archive_rds-us-east-1_NA_20151001');</script>
-                      
+                        
+                              <img src="/images/status0.gif" />
+                            
+                        
                         <!-- End Status Content -->
                   </td>
                 
@@ -12248,20 +12208,10 @@
                   <td>
                     <!-- Status Content -->
                     
-                      <span id="imagecontainer_archive_management-console_NA_20150929">
-                        <img src="/images/status1.gif" />
-                      </span>
-                      <span style="position: relative">
-                        <div id="archive_management-console_NA_20150929" style="display: none;" class="greybg bordered-dark pad8 archivePopup">
-                          <div class="whitebg pad4">
-                            <div class="pad4" style="float:left"><img src="/images/status1.gif" /></div>
-                            <div class="pad4 bold yellowfg" style="float:left">[RESOLVED] Elevated error rates</div>
-                            <div class="pad4" style="clear:both"><div><span class="yellowfg"> 9:00 PM PDT</span>&nbsp;We are currently investigating elevated error rates for the AWS Management Console.</div><div><span class="yellowfg"> 9:23 PM PDT</span>&nbsp;Between 7:55 PM and 9:12 PM PDT the AWS Management Console experienced elevated error rates. The errors have recovered and the AWS Management Console is now operating normally.</div></div>
-                          </div>
-                        </div>
-                      </span>
-                      <script language="JavaScript">setupHistoryEventHandler('archive_management-console_NA_20150929');</script>
-                      
+                        
+                              <img src="/images/status0.gif" />
+                            
+                        
                         <!-- End Status Content -->
                   </td>
                 
@@ -13487,19 +13437,19 @@
           <table id="SAstatusHistoryContent" class="statusHistory statusHistoryContent">
             <tr>
               
+                <th>Oct 9</th>
+              
+                <th>Oct 8</th>
+              
+                <th>Oct 7</th>
+              
+                <th>Oct 6</th>
+              
                 <th>Oct 5</th>
               
                 <th>Oct 4</th>
               
                 <th>Oct 3</th>
-              
-                <th>Oct 2</th>
-              
-                <th>Oct 1</th>
-              
-                <th>Sep 30</th>
-              
-                <th>Sep 29</th>
               
             </tr>
             
@@ -15418,20 +15368,10 @@
                   <td>
                     <!-- Status Content -->
                     
-                      <span id="imagecontainer_archive_management-console_SA_20150929">
-                        <img src="/images/status1.gif" />
-                      </span>
-                      <span style="position: relative">
-                        <div id="archive_management-console_SA_20150929" style="display: none;" class="greybg bordered-dark pad8 archivePopup">
-                          <div class="whitebg pad4">
-                            <div class="pad4" style="float:left"><img src="/images/status1.gif" /></div>
-                            <div class="pad4 bold yellowfg" style="float:left">[RESOLVED] Elevated error rates</div>
-                            <div class="pad4" style="clear:both"><div><span class="yellowfg"> 9:00 PM PDT</span>&nbsp;We are currently investigating elevated error rates for the AWS Management Console.</div><div><span class="yellowfg"> 9:23 PM PDT</span>&nbsp;Between 7:55 PM and 9:12 PM PDT the AWS Management Console experienced elevated error rates. The errors have recovered and the AWS Management Console is now operating normally.</div></div>
-                          </div>
-                        </div>
-                      </span>
-                      <script language="JavaScript">setupHistoryEventHandler('archive_management-console_SA_20150929');</script>
-                      
+                        
+                              <img src="/images/status0.gif" />
+                            
+                        
                         <!-- End Status Content -->
                   </td>
                 
@@ -16355,19 +16295,19 @@
           <table id="EUstatusHistoryContent" class="statusHistory statusHistoryContent">
             <tr>
               
+                <th>Oct 9</th>
+              
+                <th>Oct 8</th>
+              
+                <th>Oct 7</th>
+              
+                <th>Oct 6</th>
+              
                 <th>Oct 5</th>
               
                 <th>Oct 4</th>
               
                 <th>Oct 3</th>
-              
-                <th>Oct 2</th>
-              
-                <th>Oct 1</th>
-              
-                <th>Sep 30</th>
-              
-                <th>Sep 29</th>
               
             </tr>
             
@@ -21394,20 +21334,10 @@
                   <td>
                     <!-- Status Content -->
                     
-                      <span id="imagecontainer_archive_management-console_EU_20150929">
-                        <img src="/images/status1.gif" />
-                      </span>
-                      <span style="position: relative">
-                        <div id="archive_management-console_EU_20150929" style="display: none;" class="greybg bordered-dark pad8 archivePopup">
-                          <div class="whitebg pad4">
-                            <div class="pad4" style="float:left"><img src="/images/status1.gif" /></div>
-                            <div class="pad4 bold yellowfg" style="float:left">[RESOLVED] Elevated error rates</div>
-                            <div class="pad4" style="clear:both"><div><span class="yellowfg"> 9:00 PM PDT</span>&nbsp;We are currently investigating elevated error rates for the AWS Management Console.</div><div><span class="yellowfg"> 9:23 PM PDT</span>&nbsp;Between 7:55 PM and 9:12 PM PDT the AWS Management Console experienced elevated error rates. The errors have recovered and the AWS Management Console is now operating normally.</div></div>
-                          </div>
-                        </div>
-                      </span>
-                      <script language="JavaScript">setupHistoryEventHandler('archive_management-console_EU_20150929');</script>
-                      
+                        
+                              <img src="/images/status0.gif" />
+                            
+                        
                         <!-- End Status Content -->
                   </td>
                 
@@ -22917,19 +22847,19 @@
           <table id="APstatusHistoryContent" class="statusHistory statusHistoryContent">
             <tr>
               
+                <th>Oct 9</th>
+              
+                <th>Oct 8</th>
+              
+                <th>Oct 7</th>
+              
+                <th>Oct 6</th>
+              
                 <th>Oct 5</th>
               
                 <th>Oct 4</th>
               
                 <th>Oct 3</th>
-              
-                <th>Oct 2</th>
-              
-                <th>Oct 1</th>
-              
-                <th>Sep 30</th>
-              
-                <th>Sep 29</th>
               
             </tr>
             
@@ -30398,20 +30328,10 @@
                   <td>
                     <!-- Status Content -->
                     
-                      <span id="imagecontainer_archive_management-console_AP_20150929">
-                        <img src="/images/status1.gif" />
-                      </span>
-                      <span style="position: relative">
-                        <div id="archive_management-console_AP_20150929" style="display: none;" class="greybg bordered-dark pad8 archivePopup">
-                          <div class="whitebg pad4">
-                            <div class="pad4" style="float:left"><img src="/images/status1.gif" /></div>
-                            <div class="pad4 bold yellowfg" style="float:left">[RESOLVED] Elevated error rates</div>
-                            <div class="pad4" style="clear:both"><div><span class="yellowfg"> 9:00 PM PDT</span>&nbsp;We are currently investigating elevated error rates for the AWS Management Console.</div><div><span class="yellowfg"> 9:23 PM PDT</span>&nbsp;Between 7:55 PM and 9:12 PM PDT the AWS Management Console experienced elevated error rates. The errors have recovered and the AWS Management Console is now operating normally.</div></div>
-                          </div>
-                        </div>
-                      </span>
-                      <script language="JavaScript">setupHistoryEventHandler('archive_management-console_AP_20150929');</script>
-                      
+                        
+                              <img src="/images/status0.gif" />
+                            
+                        
                         <!-- End Status Content -->
                   </td>
                 
@@ -31124,4 +31044,4 @@
   </body>
 </html>
 
-<!-- Generated on: Oct 6, 2015 PDT -->
+<!-- Generated on: Oct 10, 2015 PDT -->

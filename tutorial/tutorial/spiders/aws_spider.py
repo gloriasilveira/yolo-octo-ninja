@@ -3,7 +3,7 @@ import scrapy
 class AWSServiceHealth(scrapy.Spider):
     name = "aws"
     allowed_domains = ["status.aws.amazon.com"]
-    start_urls = ["http://status.aws.amazon.com/"]
+    start_urls = ["http://status.aws.amazon.com/#NA_block"]
 
 #class AWSServiceHealth(scrapy.Spider):
 #    name = "aws"
